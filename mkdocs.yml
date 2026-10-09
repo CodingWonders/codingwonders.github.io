@@ -9,7 +9,7 @@ theme:
   logo: logo.png
   favicon: img/favicon.ico
   font:
-    text: Segoe UI Variable Display
+    text: Segoe UI
   features:
     - search.suggest
   palette:
