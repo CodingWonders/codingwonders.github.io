@@ -13,7 +13,9 @@ This post is not what you would see from this subreddit, but I thought about mak
 
 After installing the June 2026 cumulative update for Windows 11, you will see this lovely file name when trying to permanently delete a file in the Recycle Bin:
 
-![](https://codingwonders.github.io/pictures/Delete File_b1.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/Delete File_b1.png">
+</p>
 
 An uninitiated user may probably think that the file is corrupted in some way. Microsoft has declared this a known issue and they state that this shows the internal name in the recycle bin. However, they don't go into much detail. That's why I decided to discuss this rather hilarious issue.
 
@@ -23,17 +25,23 @@ I would like to talk about how the Recycle Bin has worked over the years, becaus
 
 The Recycle Bin was introduced in Windows 95. Ever since its introduction, it's always been a folder in the root of volumes. In the Windows 9x family of operating systems, this folder is called `Recycled`. But, you don't see this folder as Recycled. You see it as the Recycle Bin:
 
-![](https://codingwonders.github.io/pictures/vmware_4qTF5CKS5U.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_4qTF5CKS5U.png">
+</p>
 
 You have to show all files in the folder options dialog to view the folder itself. However, if you access this folder by double-clicking it, you will see the same results.
 
-![](https://codingwonders.github.io/pictures/vmware_3pRrMQ81CJ.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_3pRrMQ81CJ.png">
+</p>
 
 This is because inside this folder there is a `desktop.ini` file that dictates how to render this folder. Normally, this is done with associations to a CLSID. We'll discuss that later. Now, how do we view the internal names? With a command prompt, of course
 
 Load `command` and go to this folder. Then, list the contents. Et voilà !
 
-![](https://codingwonders.github.io/pictures/vmware_R71tsuODTC.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_R71tsuODTC.png">
+</p>
 
 Back in 9x versions of Windows, this was the typical file structure:
 
@@ -42,21 +50,31 @@ Back in 9x versions of Windows, this was the typical file structure:
 
 INFO2 is a binary file. If we load it in a hex editor, we can see that information:
 
-![](https://codingwonders.github.io/pictures/vmware_0zBMdo60KG.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_0zBMdo60KG.png">
+</p>
 
 While we're at it, let's view our desktop.ini file:
 
-![](https://codingwonders.github.io/pictures/vmware_fMgv8yirfC.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_fMgv8yirfC.png">
+</p>
 
 If we check this CLSID with the list of CLSIDs in `HKEY_CLASSES_ROOT\CLSID`, we can see that it indeed is the class ID for the recycle bin:
 
-![](https://codingwonders.github.io/pictures/vmware_wYzUYe1ExB.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_wYzUYe1ExB.png">
+</p>
 
 Windows NT inherited this system with version 4.0 (using `INFO` instead of `INFO2` and a root folder name of `RECYCLER`) but, with NT being a proper multi-user system, there is a recycle bin for each user. The recycle bin folders are distinguished by user Security Identifiers (SIDs). This separation can also be seen on more recent versions of Windows.
 
-![](https://codingwonders.github.io/pictures/vmware_NAxla1P9Jr.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_NAxla1P9Jr.png">
+</p>
 
-![](https://codingwonders.github.io/pictures/vmware_eDz7U3gxJK.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_eDz7U3gxJK.png">
+</p>
 
 ### Windows Vista and later
 
@@ -69,13 +87,17 @@ Rather than having a single file with all the metadata, there are now metadata f
 
 `nnnnnn` is a random set of characters. Like in older versions of Windows, the metadata file contains the original file location and the deletion date.
 
-![](https://codingwonders.github.io/pictures/CWindowssystem32cmd.exe 1_b1.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/CWindowssystem32cmd.exe 1_b1.png">
+</p>
 
 You may notice that folders also follow this structure. However, items inside these folders are not renamed.
 
 Anyway, here's the metadata file for one of the files in the recycle bin:
 
-![](https://codingwonders.github.io/pictures/notepad++_hAr7g6Ymf1.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/notepad++_hAr7g6Ymf1.png">
+</p>
 
 So, what's happening is that Windows is not reading this metadata file when showing the confirmation, despite showing the file correctly in the recycle bin.
 

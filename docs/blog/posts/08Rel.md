@@ -5,7 +5,9 @@ categories:
 ---
 # DISMTools 0.8 - Now available
 
-![](https://codingwonders.github.io/pictures/DT08_Release.png)
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/DT08_Release.png">
+</p>
 
 DISMTools 0.8 is now available as a stable release, and comes with new features and enhancements.
 
