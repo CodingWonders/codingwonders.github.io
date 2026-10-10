@@ -51,7 +51,7 @@ The fourth preview of DISMTools 0.8 is now available, with new features and enha
 As always, you can begin contributing to the project by [**downloading this version today**](https://github.com/CodingWonders/DISMTools/releases/tag/v0.8_pre_2642) and **reporting feedback to us**.
 
 <p align="center">
-  <img src="https://i.imgur.com/KlPekhA.png">
+  <img src="/pictures/dt_relnotes/report_feedback.png">
 </p>
 
 Feedback is very crucial for the success of this project.
@@ -59,7 +59,7 @@ Feedback is very crucial for the success of this project.
 If you want to help us with something else (like documentation or artwork), we also welcome your suggestions. The help documentation content pages are available on [GitHub](https://github.com/CodingWonders/dt_help) and we encourage you to **contribute to them** so that we can make DISMTools easier to use.
 
 <p align="center">
-    <img src="https://github.com/CodingWonders/DISMTools/assets/101426328/778b8900-c92b-4c53-88ed-fe42a3becaa1" />
+    <img src="/pictures/dt_relnotes/contrib_to_helpsys.png" />
 </p>
 
 We're also working on the next preview release of DISMTools, so expect more enhancements and goodies in around 2 weeks (May 10).

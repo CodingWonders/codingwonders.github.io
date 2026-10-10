@@ -1,4 +1,4 @@
-docs/pictures/*.jpg filter=lfs diff=lfs merge=lfs -text
-docs/pictures/*.jpeg filter=lfs diff=lfs merge=lfs -text
-docs/pictures/*.png filter=lfs diff=lfs merge=lfs -text
-docs/pictures/*.webp filter=lfs diff=lfs merge=lfs -text
+docs/pictures/**/*.png filter=lfs diff=lfs merge=lfs -text
+docs/pictures/**/*.webp filter=lfs diff=lfs merge=lfs -text
+docs/pictures/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+docs/pictures/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
