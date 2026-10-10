@@ -23,9 +23,9 @@ The API key is needed in order for the Starter Script Editor to automate as many
 
 With your Starter Script ready, click "Upload Script" on the toolbar. A window will appear telling you more about the process and what you need to do:
 
-![](/pictures/StarterScriptEditor_0k78e5LXks.png)
+![](https://codingwonders.github.io/pictures/StarterScriptEditor_0k78e5LXks.png)
 
-![](/pictures/StarterScriptEditor_GiuoTYRokG.png)
+![](https://codingwonders.github.io/pictures/StarterScriptEditor_GiuoTYRokG.png)
 
 You will need to provide a GitHub API key. Any type of API key can work, whether it's a classic or a fine-grained token. You can create API keys regardless of your GitHub account's age. Click *How do I get an API key?* for a detailed, step-by-step guide on how to do this. Additional notes are provided later in this post, so **KEEP READING**.
 
@@ -41,7 +41,7 @@ Use the unattended answer file creation wizard in DISMTools to view starter scri
 
 When browsing starter scripts, expand the script type drop-down menu and select *Scripts uploaded to the Library*:
 
-![](/pictures/DISMTools_KMDKTpmyc4.png)
+![](https://codingwonders.github.io/pictures/DISMTools_KMDKTpmyc4.png)
 
 Then, select your script and click OK.
 

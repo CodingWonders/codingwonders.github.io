@@ -50,7 +50,7 @@ Remember the Windows on R project? Well, it helped make the perfect test bed for
 
 When I had the ARM64 version working, I started thinking that ARM was the future. It appears as though that's the case, thanks to the green player. Here's an internal sheet I made specifically for this, back in 2025.
 
-![](/pictures/Sheet_ARM64Compat.png)
+![](https://codingwonders.github.io/pictures/Sheet_ARM64Compat.png)
 
 *Back when the 0.6 series was still the latest and greatest.*
 
