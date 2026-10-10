@@ -60,6 +60,7 @@ plugins:
         json_updated: feed_updated.json
       rss_feed_enabled: true
       json_feed_enabled: true
+      length: 2147483647
 
 nav:
   - Home: index.md
