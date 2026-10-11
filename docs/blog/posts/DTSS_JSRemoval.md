@@ -40,6 +40,20 @@ Based on this, we have 4 good scripting languages with which you can make script
 
 You could probably see why JScript support was removed. I think it was dropped because of lack of popularity. As such, UnattendGen, the unattended answer file creation wizard, and the Starter Script Editor have been updated to drop JScript support and you will begin to see this change with DISMTools **0.8.2 Preview 4**.
 
+For the Starter Script Editor, here's what will change:
+
+- You will not be able to import JScript scripts:
+
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/zN6SUnJwtD.png">
+</p>
+
+- Document outline support for JScript has been removed:
+
+<p align="center">
+    <img src="https://codingwonders.github.io/pictures/vmware_9s1fZpURUl.png">
+</p>
+
 ## So, what do I do if I have and/or rely on JScript files?
 
 Well, at this point, I recommend that you spend some time rewriting your existing JScript files in PowerShell.
