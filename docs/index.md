@@ -1,3 +1,7 @@
+---
+glightbox: false
+---
+
 # Where innovation and craftsmanship meet
 
 Welcome to the official **CodingWonders Software** website! Use the sections on the left to explore it, or one of the links below to learn about my software:

@@ -44,6 +44,8 @@ theme:
 plugins:
   - search
   - blog
+  - glightbox:
+      background: none
   - rss:
       abstract_chars_count: -1
       match_path: blog/posts/.*
@@ -61,6 +63,9 @@ plugins:
       rss_feed_enabled: true
       json_feed_enabled: true
       length: 2147483647
+
+markdown_extensions:
+  - meta
 
 nav:
   - Home: index.md
