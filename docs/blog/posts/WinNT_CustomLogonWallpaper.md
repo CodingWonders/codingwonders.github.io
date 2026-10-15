@@ -32,7 +32,7 @@ Put the wallpaper in a simple path that can be accessed by anyone in the system,
 2. Go to HKEY_USERS\\.DEFAULT\\Control Panel\\Desktop and change the Wallpaper value to the location of your BMP file. For example:
 
 <p align="center">
-    <img src="/pictures/vmware_yH4RWwU9hb.png">
+    <img src="https://codingwonders.github.io/pictures/vmware_yH4RWwU9hb.png">
 </p>
 
 Now, log off. You will see the custom logon wallpaper immediately. Here are some examples:
@@ -40,19 +40,19 @@ Now, log off. You will see the custom logon wallpaper immediately. Here are some
 - Windows 2000 with a logon wallpaper depicting [an iconic French duo](https://en.wikipedia.org/wiki/Daft_Punk):
 
 <p align="center">
-    <img src="/pictures/w2k_gina_daft.png">
+    <img src="https://codingwonders.github.io/pictures/w2k_gina_daft.png">
 </p>
 
 - Windows NT 4.0 with a Windows Vista wallpaper:
 
 <p align="center">
-    <img src="/pictures/wnt4_gina_vista.png">
+    <img src="https://codingwonders.github.io/pictures/wnt4_gina_vista.png">
 </p>
 
 - Windows NT 3.51 with `WINLOGO.BMP`, tiled by setting `TileWallpaper` to 1:
 
 <p align="center">
-    <img src="/pictures/wnt3_gina_winlogo.png">
+    <img src="https://codingwonders.github.io/pictures/wnt3_gina_winlogo.png">
 </p>
 
 Time to customize your logon screen! Your friends will be impressed with what you come up with.
