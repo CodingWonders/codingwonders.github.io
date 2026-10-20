@@ -19,3 +19,9 @@ Welcome to the official **CodingWonders Software** website! Use the sections on 
 ### Scripts
 
 When I'm not writing executables, I'm writing scripts. Check out [my script collection](https://codingwonders.github.io/MyScripts). You will find scripts of various topics in my collection.
+
+## Stay informed!
+
+Hover over the RSS entry on the sidebar and copy the link. Then, paste it into your preferred RSS feed reader.
+
+That's how you can stay up to date with what I post on my blog.
