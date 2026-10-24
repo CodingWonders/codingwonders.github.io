@@ -21,7 +21,7 @@ In the current implementation of user account creation, you can create up to 5 u
 As such, the *Discovery* implementation will allow you to specify unlimited user accounts. Here is how user accounts are planned to be presented in *Discovery*:
 
 <p align="center">
-    <img src="/pictures/DiscoveryUserPanel.svg">
+    <img src="https://codingwonders.github.io/pictures/DiscoveryUserPanel.svg">
 </p>
 
 As shown in the aforementioned mockup, you begin with 1 user account, and you add up from there. You can delete any slot by clicking the Delete button of the desired account slot.
