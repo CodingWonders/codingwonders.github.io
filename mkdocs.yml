@@ -66,6 +66,9 @@ plugins:
 
 markdown_extensions:
   - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
