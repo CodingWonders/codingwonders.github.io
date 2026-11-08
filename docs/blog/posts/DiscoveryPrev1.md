@@ -2,6 +2,7 @@
 date: 2026-11-07
 categories:
   - release
+  - Discovery
 ---
 # DISMTools 0.9 Preview 1 - Now available
 
